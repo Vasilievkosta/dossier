@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/dossier/static/css/main.a08d23ee.css",
+    "main.js": "/dossier/static/js/main.fd428ba8.js",
+    "static/js/787.b137b72c.chunk.js": "/dossier/static/js/787.b137b72c.chunk.js",
+    "static/media/photo.png": "/dossier/static/media/photo.f865cab7d71fc3325409.png",
+    "static/media/Rubik-Medium.ttf": "/dossier/static/media/Rubik-Medium.245b10a6d17a17375df5.ttf",
+    "static/media/Rubik-Bold.ttf": "/dossier/static/media/Rubik-Bold.62f4020377068e895a46.ttf",
+    "static/media/Rubik-Regular.ttf": "/dossier/static/media/Rubik-Regular.42535d1e2d489e27b525.ttf",
+    "static/media/Rubik-Light.ttf": "/dossier/static/media/Rubik-Light.8b2f4f9364978708a64e.ttf",
+    "static/media/social-project.jpg": "/dossier/static/media/social-project.906be7a1a76f614f16ca.jpg",
+    "static/media/todo-project.jpg": "/dossier/static/media/todo-project.4d0e343995165575c1f8.jpg",
+    "static/media/postgresql.svg": "/dossier/static/media/postgresql.62bba1b30bde1d29c78e9f7d4227dd6c.svg",
+    "static/media/react.svg": "/dossier/static/media/react.7098e2714733fed1ce8cdb90d51c4289.svg",
+    "static/media/node.svg": "/dossier/static/media/node.18fe5d93920cc81588171b074ddc4fe3.svg",
+    "static/media/scss.svg": "/dossier/static/media/scss.268e3eae7bab4d31e903cda005f309c2.svg",
+    "static/media/redux.svg": "/dossier/static/media/redux.0093fdee00ecf5136c9f7660ebe5e197.svg",
+    "static/media/css.svg": "/dossier/static/media/css.b3c0acbf83dd5d6e5ab455b9de967ab9.svg",
+    "index.html": "/dossier/index.html",
+    "main.a08d23ee.css.map": "/dossier/static/css/main.a08d23ee.css.map",
+    "main.fd428ba8.js.map": "/dossier/static/js/main.fd428ba8.js.map",
+    "787.b137b72c.chunk.js.map": "/dossier/static/js/787.b137b72c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a08d23ee.css",
+    "static/js/main.fd428ba8.js"
+  ]
+}
