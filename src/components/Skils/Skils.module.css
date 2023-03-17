@@ -1,0 +1,9 @@
+.skils {
+    background-color: #1a1a3c;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,9 @@
+.projects {
+    background-color: #010032;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
