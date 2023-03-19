@@ -1,0 +1,27 @@
+@import '../../common/styles/scss/variables';
+@import '../../common/styles/scss/mixin';
+
+.card {
+    max-width: 250px;
+    background-color: $grey-100;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+    .icons {
+        img {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto;
+        }
+    }
+
+    .tech {
+        margin-bottom: 30px;
+        @include f ($Rubik, 500, 24px, 1.3);
+    }
+
+    .description {
+        @include f ($Rubik, 400, 18px, 1.3);
+    }
+}

@@ -16,31 +16,31 @@ export const arrSkils = [
         id: 2,
         tech: 'SCSS',
         icon: iconScss,
-        description: 'SCSS an adaptive page, I use flex and grid technologies'
+        description: 'Nesting and variables in SCSS speeds up my development'
     },
     {
         id: 3,
         tech: 'React',
         icon: iconReact,
-        description: 'React an adaptive page, I use flex and grid technologies'
+        description: 'In React I prefer to use functional components'
     },
     {
         id: 4,
         tech: 'Redux',
         icon: iconRedux,
-        description: 'Redux an adaptive page, I use flex and grid technologies'
+        description: 'I use Redux to manage application state.'
     },
     {
         id: 5,
         tech: 'Node',
         icon: iconNode,
-        description: 'Node, I use flex and grid technologies'
+        description: 'Used node.js when developing server-side applications'
     },
     {
         id: 6,
         tech: 'Postgresql',
         icon: iconPostgresql,
-        description: 'Postgresql and grid technologies'
+        description: 'I have experience using Postgresql database project'
     },
 ]
 

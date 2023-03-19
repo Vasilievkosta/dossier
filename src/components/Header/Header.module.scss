@@ -1,0 +1,36 @@
+@import '../../common/styles/scss/variables';
+@import '../../common/styles/scss/mixin';
+
+.header {
+    background-color: $blue-900;
+    padding: 20px 0;
+
+    .nav {
+        color: $grey-100;
+
+        .list {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            list-style-type: none;
+
+            & li {
+                @include f ($Rubik, 300, 14px, 1.5);
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                padding-bottom: 5px;
+                cursor: pointer;
+                border-bottom: 2px solid transparent;
+                transition: border-color 0.3s;
+
+                &:not(:last-child) {
+                    margin-right: 25px;
+                }
+
+                &:hover {
+                    border-color: $white
+                }
+            }
+        }
+    }
+}

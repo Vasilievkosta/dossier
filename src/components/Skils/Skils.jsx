@@ -1,12 +1,16 @@
-import s from './Skils.module.css'
+import s from './Skils.module.scss'
+import stylesApp from '../../common/styles/StylesApp.module.scss'
+import { Title } from '../../common/Parts/Title/Title'
 import { arrSkils } from '../../assets/data/data-skils'
 import { SkilCard } from '../SkilCard/SkilCard'
 
 export function Skils() {
     return (
         <section className={s.skils}>
-            <div className="container">
-                <h2 className="title">Skils</h2>
+            <div className={stylesApp.container}>
+
+                <Title text={'Skils'} />
+
                 <div className={s.wrap}>
                     {
                         arrSkils.map((s) => (

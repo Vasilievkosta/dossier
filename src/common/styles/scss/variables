@@ -1,0 +1,16 @@
+$blue-100: #c9e5ff;
+$blue-200: #0080ff;
+$blue-300: #0066cc;
+$blue-400: #0059b3;
+$blue-500: #004d99;
+$blue-600: #4543e8;
+$blue-700: #002e5c;
+$blue-800: #1a1a3c;
+$blue-900: #010032;
+
+$grey-100: #d8d8eb;
+
+$white: white;
+$black: black;
+
+$Rubik: 'Rubik', sans-serif;

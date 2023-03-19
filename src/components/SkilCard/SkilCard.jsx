@@ -1,5 +1,5 @@
 import React from 'react'
-import s from './SkilCard.module.css'
+import s from './SkilCard.module.scss'
 
 export const SkilCard = ({ icon, tech, description }) => {
     return (

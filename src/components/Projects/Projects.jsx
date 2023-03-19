@@ -1,14 +1,19 @@
 import React from 'react'
+import stylesApp from '../../common/styles/StylesApp.module.scss'
+import s from './Projects.module.scss';
+import { Title } from '../../common/Parts/Title/Title';
 import { ProjectCard } from '../ProjectCard/ProjectCard';
 import { arrProjects } from '../../assets/data/data-projects';
-import s from './Projects.module.css';
+
 
 export function Projects() {
 
     return (
         <section className={s.projects}>
-            <div className="container">
-                <h2 className="title">My Projects</h2>
+            <div className={stylesApp.container}>
+
+                <Title text={'My Projects'} />
+
                 <div className={s.wrap}>
                     {
                         arrProjects.map((p) => (

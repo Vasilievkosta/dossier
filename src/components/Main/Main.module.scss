@@ -1,0 +1,59 @@
+@import '../../common/styles/scss/variables';
+@import '../../common/styles/scss/mixin';
+
+.main {
+    padding: 100px 0;
+    min-height: 100vh;
+    background-color: $blue-900;
+
+    .about {
+        display: flex;
+        justify-content: space-between;
+
+        @media screen and (max-width: 767px) {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hello {
+            max-width: 450px;
+            margin: auto;
+            text-align: start;
+            @include f ($Rubik, 300, 18px, 1.7);
+            color: $grey-100;
+
+            @media screen and (max-width: 767px) {
+                text-align: center;
+                margin-bottom: 40px;
+            }
+
+            & h6 {
+                font-size: 25px;
+                font-weight: 500;
+                line-height: 1.2;
+                margin-bottom: 20px;
+            }
+
+            & h1 {
+                @include f ($Rubik, 700, 70px, 1);
+                margin-bottom: 20px;
+
+                @media screen and (max-width: 575px) {
+                    font-size: 50px;
+                }
+            }
+        }
+
+        .images {
+            & img {
+                border: 5px solid $white;
+                border-radius: 50%;
+
+                @media screen and (max-width: 767px) {
+                    max-width: 250px;
+                    max-height: 250px;
+                }
+            }
+        }
+    }
+}

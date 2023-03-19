@@ -1,7 +1,7 @@
 import React from 'react'
-import s from './SuperButton.module.css'
+import s from './SuperButton.module.scss'
 
-export const SuperButton = ({ xType, children, className, disabled }) => {
+export const SuperButton = ({ type, xType, children, className, disabled }) => {
     const finalClassName = s.button
         + (disabled
             ? ' ' + s.disabled
@@ -14,7 +14,7 @@ export const SuperButton = ({ xType, children, className, disabled }) => {
 
     return (
         <button
-
+            type={type}
             className={finalClassName}
             children={children}
         />

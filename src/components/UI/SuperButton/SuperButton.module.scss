@@ -1,0 +1,64 @@
+@import '../../../common/styles/scss/variables';
+@import '../../../common/styles/scss/mixin';
+
+.button {
+    margin: 10px;
+    overflow: hidden;
+    padding: 5px 24px;
+    border: none;
+    border: 1px solid $white;
+    border-radius: 3px;
+    color: $white;
+    @include f ($Rubik, 400, 16px, 1.5);
+    cursor: pointer;
+
+    &:disabled {
+        cursor: default;
+    }
+}
+
+.disabled {
+    color: $blue-700;
+    background-color: $blue-500;
+    opacity: 0.5;
+}
+
+.secondary {
+    color: $grey-100;
+    background-color: transparent;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: $blue-600
+    }
+
+    &:active {
+        background-color: $blue-100;
+        color: $blue-900;
+    }
+}
+
+.default {
+    background-color: $blue-300;
+
+    &:hover {
+        background-color: $blue-200;
+    }
+
+    &:active {
+        background-color: $blue-400;
+    }
+}
+
+.view {
+    background-color: $blue-600;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: $blue-600;
+    }
+
+    &:active {
+        background-color: $grey-100;
+    }
+}

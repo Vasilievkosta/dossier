@@ -1,0 +1,11 @@
+@import '../../common/styles/scss/variables';
+
+.skils {
+    background-color: $blue-800;
+
+    .wrap {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}

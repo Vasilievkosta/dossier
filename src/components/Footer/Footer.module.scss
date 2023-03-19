@@ -1,0 +1,30 @@
+@import '../../common/styles/scss/variables';
+
+.footer {
+    background-color: $blue-800;
+    color: $white;
+
+    .icons {
+        display: flex;
+        justify-content: center;
+
+        & a {
+            font-size: 24px;
+            padding: 5px;
+            margin-right: 10px;
+            transition: color 0.3s;
+
+            &:hover {
+                color: $blue-600;
+            }
+
+            &:active {
+                color: $blue-100;
+            }
+        }
+    }
+
+    .copy {
+        padding: 20px;
+    }
+}

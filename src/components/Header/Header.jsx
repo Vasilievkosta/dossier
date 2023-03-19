@@ -1,15 +1,16 @@
-import s from './Header.module.css'
+import s from './Header.module.scss'
+import stylesApp from '../../common/styles/StylesApp.module.scss'
 
 export function Header() {
     return (
         <section className={s.header}>
-            <div className="container">
+            <div className={stylesApp.container}>
                 <nav className={s.nav}>
-                    <ul>
-                        <li ><a href='https://www.google.com/'>Home</a></li>
-                        <li><a href='https://www.google.com/'>Skils</a></li>
-                        <li><a href='https://www.google.com/'>Projects</a></li>
-                        <li><a href='https://www.google.com/'>Contacts</a></li>
+                    <ul className={s.list}>
+                        <li ><a href='footer'>Home</a></li>
+                        <li><a href='skils'>Skils</a></li>
+                        <li><a href='projects'>Projects</a></li>
+                        <li><a href='contacts'>Contacts</a></li>
                     </ul>
                 </nav>
             </div>
