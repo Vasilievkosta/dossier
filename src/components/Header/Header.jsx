@@ -7,10 +7,10 @@ export function Header() {
             <div className={stylesApp.container}>
                 <nav className={s.nav}>
                     <ul className={s.list}>
-                        <li ><a href='footer'>Home</a></li>
-                        <li><a href='skils'>Skils</a></li>
-                        <li><a href='projects'>Projects</a></li>
-                        <li><a href='contacts'>Contacts</a></li>
+                        <li ><a href='#footer'>Home</a></li>
+                        <li><a href='#skils'>Skils</a></li>
+                        <li><a href='#projects'>Projects</a></li>
+                        <li><a href='#contact'>Contacts</a></li>
                     </ul>
                 </nav>
             </div>

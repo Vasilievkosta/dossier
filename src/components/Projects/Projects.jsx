@@ -9,7 +9,7 @@ import { arrProjects } from '../../assets/data/data-projects';
 export function Projects() {
 
     return (
-        <section className={s.projects}>
+        <section className={s.projects} id='projects'>
             <div className={stylesApp.container}>
 
                 <Title text={'My Projects'} />

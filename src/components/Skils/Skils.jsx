@@ -6,7 +6,7 @@ import { SkilCard } from '../SkilCard/SkilCard'
 
 export function Skils() {
     return (
-        <section className={s.skils}>
+        <section className={s.skils} id='skils'>
             <div className={stylesApp.container}>
 
                 <Title text={'Skils'} />

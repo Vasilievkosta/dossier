@@ -5,7 +5,7 @@ import { SuperButton } from '../UI/SuperButton/SuperButton'
 
 export function Contact() {
     return (
-        <section className={s.contact} >
+        <section className={s.contact} id='contact'>
             <div className={stylesApp.container}>
 
                 <Title text={'Contact'} />
