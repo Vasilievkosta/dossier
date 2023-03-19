@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/dossier/static/css/main.c145d71e.css",
-    "main.js": "/dossier/static/js/main.22db1b36.js",
+    "main.css": "/dossier/static/css/main.06a6556e.css",
+    "main.js": "/dossier/static/js/main.133dad4c.js",
     "static/js/787.b137b72c.chunk.js": "/dossier/static/js/787.b137b72c.chunk.js",
     "static/media/photo.png": "/dossier/static/media/photo.f865cab7d71fc3325409.png",
-    "static/media/Rubik-Medium.ttf": "/dossier/static/media/Rubik-Medium.245b10a6d17a17375df5.ttf",
-    "static/media/Rubik-Bold.ttf": "/dossier/static/media/Rubik-Bold.62f4020377068e895a46.ttf",
-    "static/media/Rubik-Regular.ttf": "/dossier/static/media/Rubik-Regular.42535d1e2d489e27b525.ttf",
-    "static/media/Rubik-Light.ttf": "/dossier/static/media/Rubik-Light.8b2f4f9364978708a64e.ttf",
+    "static/media/Rubik-Medium.woff": "/dossier/static/media/Rubik-Medium.c193e27e14b005817b93.woff",
+    "static/media/Rubik-Bold.woff": "/dossier/static/media/Rubik-Bold.7bfff7011ead43b30636.woff",
+    "static/media/Rubik-Regular.woff": "/dossier/static/media/Rubik-Regular.6e5918a4c0fbd47934a7.woff",
+    "static/media/Rubik-Light.woff": "/dossier/static/media/Rubik-Light.fdadf66257fbe0ed2fc2.woff",
+    "static/media/Rubik-Medium.woff2": "/dossier/static/media/Rubik-Medium.6c04a10121ed706f794b.woff2",
+    "static/media/Rubik-Bold.woff2": "/dossier/static/media/Rubik-Bold.2341a28164f32f652711.woff2",
+    "static/media/Rubik-Regular.woff2": "/dossier/static/media/Rubik-Regular.de9ced2ccfc8ad55cdbe.woff2",
     "static/media/social-project.jpg": "/dossier/static/media/social-project.906be7a1a76f614f16ca.jpg",
+    "static/media/Rubik-Light.woff2": "/dossier/static/media/Rubik-Light.4c55cd29d9bedf7bb132.woff2",
     "static/media/todo-project.jpg": "/dossier/static/media/todo-project.4d0e343995165575c1f8.jpg",
     "static/media/postgresql.svg": "/dossier/static/media/postgresql.62bba1b30bde1d29c78e9f7d4227dd6c.svg",
     "static/media/react.svg": "/dossier/static/media/react.7098e2714733fed1ce8cdb90d51c4289.svg",
@@ -17,12 +21,12 @@
     "static/media/redux.svg": "/dossier/static/media/redux.0093fdee00ecf5136c9f7660ebe5e197.svg",
     "static/media/css.svg": "/dossier/static/media/css.b3c0acbf83dd5d6e5ab455b9de967ab9.svg",
     "index.html": "/dossier/index.html",
-    "main.c145d71e.css.map": "/dossier/static/css/main.c145d71e.css.map",
-    "main.22db1b36.js.map": "/dossier/static/js/main.22db1b36.js.map",
+    "main.06a6556e.css.map": "/dossier/static/css/main.06a6556e.css.map",
+    "main.133dad4c.js.map": "/dossier/static/js/main.133dad4c.js.map",
     "787.b137b72c.chunk.js.map": "/dossier/static/js/787.b137b72c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c145d71e.css",
-    "static/js/main.22db1b36.js"
+    "static/css/main.06a6556e.css",
+    "static/js/main.133dad4c.js"
   ]
 }
