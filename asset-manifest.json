@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dossier/static/css/main.06a6556e.css",
-    "main.js": "/dossier/static/js/main.133dad4c.js",
+    "main.css": "/dossier/static/css/main.d6b2a126.css",
+    "main.js": "/dossier/static/js/main.237fc2a3.js",
     "static/js/787.b137b72c.chunk.js": "/dossier/static/js/787.b137b72c.chunk.js",
     "static/media/photo.png": "/dossier/static/media/photo.f865cab7d71fc3325409.png",
     "static/media/Rubik-Medium.woff": "/dossier/static/media/Rubik-Medium.c193e27e14b005817b93.woff",
@@ -21,12 +21,12 @@
     "static/media/redux.svg": "/dossier/static/media/redux.0093fdee00ecf5136c9f7660ebe5e197.svg",
     "static/media/css.svg": "/dossier/static/media/css.b3c0acbf83dd5d6e5ab455b9de967ab9.svg",
     "index.html": "/dossier/index.html",
-    "main.06a6556e.css.map": "/dossier/static/css/main.06a6556e.css.map",
-    "main.133dad4c.js.map": "/dossier/static/js/main.133dad4c.js.map",
+    "main.d6b2a126.css.map": "/dossier/static/css/main.d6b2a126.css.map",
+    "main.237fc2a3.js.map": "/dossier/static/js/main.237fc2a3.js.map",
     "787.b137b72c.chunk.js.map": "/dossier/static/js/787.b137b72c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06a6556e.css",
-    "static/js/main.133dad4c.js"
+    "static/css/main.d6b2a126.css",
+    "static/js/main.237fc2a3.js"
   ]
 }
