@@ -1,7 +1,7 @@
 import React from 'react'
 import s from './ProjectCard.module.scss'
 
-export const ProjectCard = ({ bg, theme, description }) => {
+export const ProjectCard = ({ bg, theme, href, description }) => {
     const bgimage = {
         backgroundImage: `url(${bg})`
     }
@@ -9,7 +9,7 @@ export const ProjectCard = ({ bg, theme, description }) => {
         <div className={s.card} >
             <div className={s.image} style={bgimage}>
                 <div className={s.link}>
-                    <a href="#">view</a>
+                    <a href={href}>view</a>
                 </div>
             </div>
 

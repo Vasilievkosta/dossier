@@ -1,5 +1,4 @@
 import React from 'react'
-import stylesApp from '../../common/styles/StylesApp.module.scss'
 import s from './Projects.module.scss';
 import { Title } from '../../common/Parts/Title/Title';
 import { ProjectCard } from '../ProjectCard/ProjectCard';
@@ -10,15 +9,19 @@ export function Projects() {
 
     return (
         <section className={s.projects} id='projects'>
-            <div className={stylesApp.container}>
+            <div className="container">
 
                 <Title text={'My Projects'} />
 
                 <div className={s.wrap}>
                     {
                         arrProjects.map((p) => (
-                            <ProjectCard key={p.id} bg={p.image}
-                                theme={p.theme} description={p.description}
+                            <ProjectCard
+								key={p.id}
+								bg={p.image}
+								theme={p.theme}
+								href={p.href}
+								description={p.description}
                             />
                         ))
                     }

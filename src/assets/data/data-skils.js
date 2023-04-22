@@ -5,42 +5,42 @@ import iconReact from '../../assets/icons/react.svg';
 import iconRedux from '../../assets/icons/redux.svg';
 import iconScss from '../../assets/icons/scss.svg';
 
-export const arrSkils = [
+export const arrSkils = [    
     {
         id: 1,
-        tech: 'CSS',
-        icon: iconCss,
-        description: 'When developing an adaptive page, I use flex and grid technologies'
-    },
-    {
-        id: 2,
-        tech: 'SCSS',
-        icon: iconScss,
-        description: 'Nesting and variables in SCSS speeds up my development'
-    },
-    {
-        id: 3,
         tech: 'React',
         icon: iconReact,
         description: 'In React I prefer to use functional components'
     },
     {
-        id: 4,
+        id: 2,
         tech: 'Redux',
         icon: iconRedux,
         description: 'I use Redux to manage application state.'
     },
     {
-        id: 5,
+        id: 3,
         tech: 'Node',
         icon: iconNode,
         description: 'Used node.js when developing server-side applications'
     },
     {
-        id: 6,
+        id: 4,
         tech: 'Postgresql',
         icon: iconPostgresql,
         description: 'I have experience using Postgresql database project'
     },
+	{
+        id: 5,
+        tech: 'CSS',
+        icon: iconCss,
+        description: 'When developing an adaptive page, I use flex and grid technologies'
+    },
+    {
+        id: 6,
+        tech: 'SCSS',
+        icon: iconScss,
+        description: 'Nesting and variables in SCSS speeds up my development'
+    }
 ]
 

@@ -1,17 +1,16 @@
 import s from './Contact.module.scss'
-import stylesApp from '../../common/styles/StylesApp.module.scss'
 import { Title } from '../../common/Parts/Title/Title'
 import { SuperButton } from '../UI/SuperButton/SuperButton'
 
 export function Contact() {
     return (
         <section className={s.contact} id='contact'>
-            <div className={stylesApp.container}>
+            <div className="container">
 
                 <Title text={'Contact'} />
 
                 <div className={s.info}>
-                    <form className={s.form}>
+                    <form className={s.form} onSubmit={(e) => e.preventDefault()}>
                         <label htmlFor="name" hidden>Name</label>
                         <input className={s.input} id="name" type="text" placeholder="Name" />
 
@@ -26,7 +25,7 @@ export function Contact() {
                             <SuperButton className={s.btn} type={'submit'} xType={'secondary'} children>
                                 send
                             </SuperButton>
-                            <span className={stylesApp.srOnly}>Send data</span>
+                            <span className="srOnly">Send data</span>
                         </div>
                     </form>
                 </div>

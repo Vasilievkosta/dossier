@@ -39,10 +39,9 @@
         }
 
         .link {
-            @include f ($Rubik, 400, 16px, 1.5);
+            @include f ($Rubik, 400, 16px, 2.5);
             z-index: 1;
-            overflow: hidden;
-            padding: 5px 24px;
+            overflow: hidden;            
             min-width: 210px;
             border: 1px solid $white;
             border-radius: 3px;
@@ -58,6 +57,10 @@
             &:active {
                 background-color: $blue-100;
             }
+			
+			& a {
+				display: block;
+			}
         }
     }
 
