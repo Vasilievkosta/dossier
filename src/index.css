@@ -1,6 +1,23 @@
+[data-theme='1'] {
+  --color: #d8d8eb;
+  --background: #010032;
+}
+
+[data-theme='2'] {
+  --color: #212A34;
+  --background: #DDEEFF;
+}
+
+[data-theme='3'] {
+  --color: #010032;
+  --background: #DDEEFF;
+}
+
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  /* background-color: var(--background);
+  color: var(--color); */
 }
 
 *,
