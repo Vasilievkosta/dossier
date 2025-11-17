@@ -1,12 +1,21 @@
 import s from './Header.module.scss'
 import { CustomLink } from '../../common/Parts/CustomLink/CustomLink'
 import { myLinks } from '../../assets/data/data-links'
+import React from "react";
 
 export function Header() {
+	const [light, setLight] = React.useState(false);
+  
+  const changeTheme = () => {
+    setLight(!light);
+    document.documentElement.dataset.theme = light ? "1" : "3";
+    console.log(document.documentElement.dataset);
+  };
 
     return (
         <section className={s.header}>
             <div className="container">
+			<button onClick={changeTheme}>Theme</button>
                 <nav className={s.nav}>
                     <ul className={s.list}>
                         {

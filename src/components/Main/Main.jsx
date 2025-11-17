@@ -1,15 +1,8 @@
-import React from "react";
-import s from "./Main.module.scss";
-import photo from "../../assets/images/photo.png";
-import ReactTypingEffect from "react-typing-effect";
+import ReactTypingEffect from "react-typing-effect"
+import photo from "../../assets/images/photo.png"
+import s from "./Main.module.scss"
 
 export function Main() {
-  const [light, setLight] = React.useState(false);
-  const changeTheme = () => {
-    setLight(!light);
-    document.documentElement.dataset.theme = light ? "1" : "3";
-    console.log(document.documentElement.dataset);
-  };
   return (
     <section className={s.main} id="main">
       <div className="container">
@@ -28,8 +21,7 @@ export function Main() {
             <img src={photo} alt="myphoto" />
           </div>
         </div>
-        <button onClick={changeTheme}>Theme</button>
       </div>
     </section>
-  );
+  )
 }
