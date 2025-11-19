@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/dossier/static/css/main.414554c0.css",
-    "main.js": "/dossier/static/js/main.9d085877.js",
+    "main.js": "/dossier/static/js/main.a4165d10.js",
     "static/js/835.3abbcba8.chunk.js": "/dossier/static/js/835.3abbcba8.chunk.js",
     "static/media/photo.png": "/dossier/static/media/photo.f865cab7d71fc3325409.png",
     "static/media/Rubik-Medium.woff": "/dossier/static/media/Rubik-Medium.c193e27e14b005817b93.woff",
     "static/media/Rubik-Bold.woff": "/dossier/static/media/Rubik-Bold.7bfff7011ead43b30636.woff",
     "static/media/Rubik-Regular.woff": "/dossier/static/media/Rubik-Regular.6e5918a4c0fbd47934a7.woff",
     "static/media/Rubik-Light.woff": "/dossier/static/media/Rubik-Light.fdadf66257fbe0ed2fc2.woff",
+    "static/media/clock-project.jpg": "/dossier/static/media/clock-project.e346fb999647392c54cc.jpg",
     "static/media/Rubik-Medium.woff2": "/dossier/static/media/Rubik-Medium.6c04a10121ed706f794b.woff2",
     "static/media/Rubik-Bold.woff2": "/dossier/static/media/Rubik-Bold.2341a28164f32f652711.woff2",
     "static/media/Rubik-Regular.woff2": "/dossier/static/media/Rubik-Regular.de9ced2ccfc8ad55cdbe.woff2",
@@ -22,11 +23,11 @@
     "static/media/css.svg": "/dossier/static/media/css.b3c0acbf83dd5d6e5ab455b9de967ab9.svg",
     "index.html": "/dossier/index.html",
     "main.414554c0.css.map": "/dossier/static/css/main.414554c0.css.map",
-    "main.9d085877.js.map": "/dossier/static/js/main.9d085877.js.map",
+    "main.a4165d10.js.map": "/dossier/static/js/main.a4165d10.js.map",
     "835.3abbcba8.chunk.js.map": "/dossier/static/js/835.3abbcba8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.414554c0.css",
-    "static/js/main.9d085877.js"
+    "static/js/main.a4165d10.js"
   ]
 }
