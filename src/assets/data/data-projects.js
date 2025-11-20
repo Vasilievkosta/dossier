@@ -7,7 +7,7 @@ export const arrProjects = [
     id: 1,
     theme: "Sotial Network",
     image: imageSocial,
-    href: "https://vasilievkosta.github.io/samurai-way/",
+    href: "https://social-messenger.netlify.app/",
     description:
       "The project is a social network developed using React and Redux libraries (Thunk, Axios, Saga, graphics).",
   },
