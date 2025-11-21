@@ -7,7 +7,7 @@ export const arrProjects = [
     id: 1,
     theme: "Sotial Network",
     image: imageSocial,
-    href: "https://social-messenger.netlify.app/",
+    href: "https://vkv.pp.ua/",
     description:
       "The project is a social network developed using React and Redux libraries (Thunk, Axios, Saga, graphics).",
   },
@@ -23,7 +23,7 @@ export const arrProjects = [
     id: 3,
     theme: "Online Workshop",
     image: imageClock,
-    href: "https://clockwise-app.netlify.app/",
+    href: "https://clockwise.vkv.pp.ua/",
     description: "The application is a service platform with server-side logic and a database.",
   },
 ]
